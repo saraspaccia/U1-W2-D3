@@ -105,7 +105,7 @@ const starWarsCharacters = [
   Crea una variabile chiamata "characters" e assegnale un array vuoto
 */
 const characters = [];
-console.log(characters);
+
 /* ESERCIZIO 2
   Utilizzando un ciclo for, cicla l'array "starWarsCharacters".
   Dovrai accedere alla proprietà "name" di ogni oggetto in esso contenuto, e inserirla nell'array "characters" creato precedentemente.
@@ -113,14 +113,14 @@ console.log(characters);
 */
 for (let i = 0; i < starWarsCharacters.length; i++) {
   const singleName = starWarsCharacters[i];
-  console.log(singleName.name);
+
   characters.push(singleName.name);
 }
+console.log(characters);
 /* ESERCIZIO 3
   Seguendo i passaggi precedenti crea un nuovo array chiamato "femaleCharacters" e inserisci al suo interno tutti gli oggetti femminili.
 */
 const femaleCharacters = [];
-console.log(femaleCharacters);
 
 for (let i = 0; i < starWarsCharacters.length; i++) {
   const character = starWarsCharacters[i];
